@@ -18,30 +18,37 @@
             <h1>Bem-vindo</h1>
             
                 <p class="subtitle">Entre com suas credenciais para acessar</p>
-            
-        </header>
+                    </header>
 
         <form action="/login" method="POST">
             
-            <div class="form-group">
-                  <label for="Email">Email ou Usuario</label>
+                <div class="form-group">
+                    <label for="Email">Email ou Usuario</label>
 
-                <div class="input-group">
-                    <input type="email" name="email" placeholder="Seu email ou name do usuario" required autofocus>
+                        <div class="input-group">
+                             <input type="email" name="email" placeholder="Seu email ou name do usuario" required autofocus>
+                        </div>
                 </div>
-            </div>
 
-            <div class="form-group">
-                  <label for="password">Senha</label>
+                <div class="form-group">
+                    <label for="password">Senha</label>
 
-                <div class="input-group">
-                    <input type="password" name="password" placeholder="Senha" required>
+                    <div class="input-group">
+                        <input type="password" name="password" placeholder="Senha" required>
+                    </div>
                 </div>
-            </div>
 
-            <div class="forgot-password">
-                <a href="/recuperar-senha">Esqueceu sua senha?</a>
-            </div>
+                <div class="forgot-password">
+                        <a href="/recuperar-senha">Esqueceu sua senha?</a>
+                </div>
+
+                <div class="options">
+                   <div class="remember-me">
+                       <input type="checkbox" id="remember" name="remember">
+                      <label for="remember">lembra-me</label>
+                   </div>
+                </div>
+                 <button type="submit">Entrar</button>
         </form>
     </main>
 
