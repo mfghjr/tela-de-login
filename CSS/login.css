@@ -1,33 +1,34 @@
-.Login-container {
+.login-container {
     background-color: var(--card-bg);
     width: 100%;
     max-width: 420px;
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
-    padding: relative;
+    padding: 2.5rem;
+    position: relative;
     overflow: hidden;
 }
 
-.Login-container::before {
+.login-container::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 5px;
-    background: linear-gradient(90deg, var(--primary-color));
+    background: linear-gradient(90deg, var(--primary-color), #9c88ff);
 }
 
 header {
-margin-bottom: 2rem;
-text-align: center;
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
 h1 {
     font-size: 1.8rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
-    color: var(--text-secundary);
+    color: var(--text-primary);
 }
 
 .subtitle {
@@ -35,7 +36,7 @@ h1 {
     font-size: 0.95rem;
 }
 
-.form-group{
+.form-group {
     margin-bottom: 1.5rem;
     position: relative;
 }
@@ -46,4 +47,19 @@ label {
     color: var(--text-primary);
     font-size: 0.9rem;
     font-weight: 500;
+}
+
+.input-group {
+    position: relative;
+}
+
+input {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--input-bg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--border-radius);
+    color: var(--text-primary);
+    font-size: 1rem;
+    transition: var(--transition);
 }
