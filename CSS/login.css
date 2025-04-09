@@ -34,3 +34,16 @@ h1 {
     color: var(--text-secundary);
     font-size: 0.95rem;
 }
+
+.form-group{
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+label {
+    display: flex;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
