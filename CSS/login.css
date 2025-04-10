@@ -141,13 +141,14 @@ button:active {
     transform: translateY(0);
 }
 
-.divider{
+.divider {
     display: flex;
     align-items: center;
     margin: 1.5rem;
 }
 
-.divider::before,.divider::after{
+.divider::before,
+.divider::after{
     content: '';
     flex: 1;
     height: 1px;
@@ -160,14 +161,15 @@ button:active {
     font-size: 0.85rem;
 }
 
-.social-Login {
+.social-login {
     display: flex;
     justify-content: center;
     gap: 1rem;
     margin-bottom: 1.5rem;
 }
 
-.social-btn { 
+.social-btn {
+    color: var(--text-primary);
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -183,7 +185,7 @@ button:active {
 
 .social-btn:hover {
     background-color: rgba(255, 255, 255, 0.05);
-    transform: translateY(-5px);
+    transform: translateY(-5px); 
 }
 
 .singup-link {
